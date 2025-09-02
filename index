@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeachMC Server</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("server-icon.png") no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      backdrop-filter: brightness(0.7);
+    }
+    .overlay {
+      background: rgba(0,0,0,0.5);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+    .ip-box {
+      margin-top: 20px;
+      padding: 12px 20px;
+      border: 2px dashed #fff;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      cursor: pointer;
+      user-select: all; /* cho phép copy IP dễ dàng */
+    }
+    .ip-box:hover {
+      background: rgba(255,255,255,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>🌴 BeachMC</h1>
+    <p>Server Minecraft chính thức</p>
+    <div class="ip-box">IP: Beachmc.asaka.asia</div>
+  </div>
+</body>
+</html>
